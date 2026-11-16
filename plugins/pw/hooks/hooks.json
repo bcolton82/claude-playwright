@@ -1,0 +1,17 @@
+{
+  "description": "After Claude edits a Playwright test file, flag hard waits, one-shot assertions, brittle locators, and leftover .only so they get fixed immediately.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/check-antipatterns.mjs\" --hook",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

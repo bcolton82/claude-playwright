@@ -1,0 +1,3 @@
+These files are derived from the Playwright documentation (docs/src) in https://github.com/microsoft/playwright
+at v1.65.0 (a1f35e1955976e84411f9c10358228a80b763ebe), Copyright Microsoft Corporation, licensed under the Apache License 2.0 (see LICENSE).
+Modified: filtered to JavaScript/TypeScript content by plugins/pw/scripts/sync-docs.mjs.

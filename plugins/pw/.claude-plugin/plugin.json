@@ -1,0 +1,11 @@
+{
+  "name": "pw",
+  "version": "1.0.0",
+  "description": "Add Playwright to an unfamiliar repo, plan risk-ranked tests, write them to senior conventions, and review for anti-patterns. Built to speed up an engineer's judgment, not replace it.",
+  "author": {
+    "name": "Brandon Colton",
+    "email": "bcolton82@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["playwright", "testing", "e2e", "api-testing", "typescript", "sdet"]
+}

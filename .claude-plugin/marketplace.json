@@ -1,0 +1,17 @@
+{
+  "name": "claude-playwright",
+  "owner": {
+    "name": "Brandon Colton",
+    "email": "bcolton82@gmail.com"
+  },
+  "metadata": {
+    "description": "Playwright tooling for Claude Code: setup, risk-ranked test plans, test writing, debugging, and review."
+  },
+  "plugins": [
+    {
+      "name": "pw",
+      "source": "./plugins/pw",
+      "description": "Add Playwright to an unfamiliar repo, plan risk-ranked tests, write them to senior conventions, and review for anti-patterns."
+    }
+  ]
+}
